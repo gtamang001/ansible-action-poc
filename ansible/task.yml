@@ -1,0 +1,10 @@
+---
+# task 
+- name: deploy to hosts
+  hosts: local
+  tasks: 
+    - name: copy some files 
+      copy: 
+        src: RELEASE/1520
+        dest: /tmp
+# do the rest below 

@@ -1,0 +1,19 @@
+name: ansible-ci yml 
+on: push
+
+jobs: 
+  deploy: 
+    runs-on: ubuntu-latest
+    container: ansible/ansible-runner:latest
+    steps: 
+      - name: checkout code 
+        uses: actions/checkout@v2
+        with: 
+          fetch-depth: '0'
+      - name: setu ssh 
+        run: |
+          echo "Setup ssh if neede"
+      - name: run ansible commands 
+        run: |
+          echo "Running ansible scripts"
+          ansible-playbook -i hosts ansible/task.yml 

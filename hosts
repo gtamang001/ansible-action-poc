@@ -1,0 +1,12 @@
+[local-1520]
+127.0.0.1 ansible_connection=local 
+[local-1620]
+127.0.0.1 ansible_connection=local 
+[local-1720]
+127.0.0.1 ansible_connection=local 
+[local-1820]
+127.0.0.1 ansible_connection=local 
+[local-1920]
+127.0.0.1 ansible_connection=local 
+[local-2020]
+127.0.0.1 ansible_connection=local 
