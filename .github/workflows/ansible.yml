@@ -17,3 +17,5 @@ jobs:
         run: |
           echo "Running ansible scripts"
           chmod +x ansible/deploy.sh
+          ansible/deploy.sh
+        shell: bash
