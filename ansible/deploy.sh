@@ -3,7 +3,7 @@ set -x
 echo "Preparing  deploy based on versions "
 # version=="[0-9]{4}" # versions such as 2020,1920 numbered folders
 echo "Read release txt"
-input="release-file.txt"
+input="file-list.txt"
 echo "Conditionalize version based on the dir name included in the file name"
 releasedir="ansible/RELEASE"
 # create release folder in ansible directory
