@@ -16,4 +16,4 @@ jobs:
       - name: run ansible commands 
         run: |
           echo "Running ansible scripts"
-          ansible-playbook -i hosts ansible/task.yml 
+          chmod +x ansible/deploy.sh

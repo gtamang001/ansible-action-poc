@@ -1,8 +1,7 @@
-2020/code/scripts/sql/2020-a.sql
-2020/code/scripts/sql/2020-b.sql
-1820/code/scripts/abc/1820-test.rsl
-1720/code/scripts/pqr/1720-test.rsl
-2018/code/scripts/jpt/2018-bs.rsl
-1920/code/scripts/rand/1920-crap.rsl
-Land/copr/cd/help.rsl
-Justcript.txt
+1520/test.txt
+1620/test1.txt
+1720/test2.txt
+1820/test4.txt
+1920/test5.txt
+2020/test6.txt
+

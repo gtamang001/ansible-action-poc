@@ -26,7 +26,7 @@ do
             echo "File copied now Deploying to release location to  host at 1520"
             if [ -s "./$releasedir/$version/$filename" ]; then
                 echo "File exists and is not empty, run playbook for $version"
-                ansible-playbook -i hosts ansible/task.yml -l go.1520 -f=1
+                ansible-playbook -i hosts ansible/task.yml -l local-1520 -f=1
             else
                 echo "File doesn't exit or is empty exiting"
             fi
@@ -39,7 +39,7 @@ do
             echo "File copied now Deploying to release location to  host at 1620"
             if [ -s "./$releasedir/$version/$filename" ]; then
                 echo "File exists and is not empty, run playbook for $version"
-                ansible-playbook -i hosts ansible/task.yml -l go.1620 -f=1
+                ansible-playbook -i hosts ansible/task.yml -l local-1620 -f=1
             else
                 echo "File doesn't exit or is empty exiting"
             fi
@@ -52,7 +52,7 @@ do
             echo "File copied now Deploying to release location to  host at 1720"
             if [ -s "./$releasedir/$version/$filename" ]; then
                 echo "File exists and is not empty, run playbook for $version"
-                ansible-playbook -i hosts ansible/task.yml -l go.1720 -f=1
+                ansible-playbook -i hosts ansible/task.yml -l local-1720 -f=1
             else
                 echo "File doesn't exit or is empty exiting"
             fi
@@ -65,7 +65,7 @@ do
             echo "File copied now Deploying to release location to  host at 1820"
             if [-s "./$releasedir/$version/$filename" ]; then
                 echo "File exists and is not empty, run playbook for $version"
-                ansible-playbook -i hosts ansible/task.yml -l go.1820 -f=1
+                ansible-playbook -i hosts ansible/task.yml -l local-1820 -f=1
             else
                 echo "File doesn't exit or is empty exiting"
             fi
@@ -78,7 +78,7 @@ do
             echo "File copied now Deploying to release location to  host at 1920"
             if [ -s "./$releasedir/$version/$filename" ]; then
                 echo "File exists and is not empty, run playbook for $version"
-                ansible-playbook -i hosts ansible/task.yml -l go.1920 -f=1
+                ansible-playbook -i hosts ansible/task.yml -l local-1920 -f=1
             else
                 echo "File doesn't exit or is empty exiting"
             fi
@@ -91,7 +91,7 @@ do
             echo "File copied now Deploying to release location to  host at 2020"
             if [ -s "./$releasedir/$version/$filename" ]; then
                 echo "File exists and is not empty, run playbook for $version"
-                ansible-playbook -i hosts ansible/task.yml -l go.2020 -f=1
+                ansible-playbook -i hosts ansible/task.yml -l local-2020 -f=1
             else
                 echo "File doesn't exit or is empty exiting"
             fi
